@@ -15,9 +15,9 @@ jQuery(function($){
 		});
 
 
-        $(function(){
+       
             $(".main-nav-menu a").tipTip();
-        });
+       
 });
 
 
