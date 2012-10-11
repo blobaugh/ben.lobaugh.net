@@ -19,7 +19,10 @@ jQuery(function($){
     $('.main-nav-menu').find('a:nth-child(3)').attr('title', 'whatever3');
     $('.main-nav-menu').find('a:nth-child(4)').attr('title', 'whatever4');
 
-    $(".main-nav-menu a").tipTip();
+    $(".main-nav-menu a").tipTip({
+        delay: 1,
+        fadeIn: 1
+    });
     console.log($('main-nav-menu a'));
     
     console.log( $('.main-nav-menu').find('a').tipTip() );
