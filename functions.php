@@ -3,7 +3,9 @@
 require_once( 'options-framework-plugin/options-framework.php' );
 	wp_enqueue_script('jquery');
  	wp_enqueue_script( 'jquery-cycle', get_bloginfo( 'template_directory' ) . '/js/jquery.cycle.all.js' );
-	wp_enqueue_script('jw_script', get_bloginfo('template_directory') . '/js/jw_script.js');
+        wp_enqueue_script('tipTip', get_bloginfo('template_directory') . '/js/jquery.tipTip.minified.js');
+        
+        wp_enqueue_script('front-page', get_bloginfo('template_directory') . '/js/front-page.js');
 
 /*
  * NOTES:

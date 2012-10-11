@@ -4,7 +4,7 @@ Template Name: home page only
 */
 $user = blobaugh_get_user_for_card();
 
-get_header(); ?>
+get_header(); ?> 
 	<div id="page-wrap">
 		<div class="content">
 			<!-- START HOME -->
