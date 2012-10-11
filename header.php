@@ -7,6 +7,7 @@
 
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php get_bloginfo('template_directory'); ?>/css/tipTip.css" />
     <!-- bloginfo( 'stylesheet_directory'); -->
     
     <script type="text/javascript">
