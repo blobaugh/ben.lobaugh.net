@@ -16,6 +16,8 @@ jQuery(function($){
 
     $(".main-nav-menu a").tipTip();
     console.log($('main-nav-menu a'));
+    
+    console.log( $('.main-nav-menu').find('a').tipTip() );
        
 });
 
