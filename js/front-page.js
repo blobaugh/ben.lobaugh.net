@@ -14,10 +14,10 @@ jQuery(function($){
         pager: '.main-nav-menu'
     });
     
-    $('.main-nav-menu').find('a:first-child').attr('title', 'whatever');
-    $('.main-nav-menu').find('a:nth-child(2)').attr('title', 'whatever2');
-    $('.main-nav-menu').find('a:nth-child(3)').attr('title', 'whatever3');
-    $('.main-nav-menu').find('a:nth-child(4)').attr('title', 'whatever4');
+    $('.main-nav-menu').find('a:first-child').attr('title', 'Home');
+    $('.main-nav-menu').find('a:nth-child(2)').attr('title', 'About Me');
+    $('.main-nav-menu').find('a:nth-child(3)').attr('title', 'My Networks');
+    $('.main-nav-menu').find('a:nth-child(4)').attr('title', 'Contact Form');
 
     $(".main-nav-menu a").tipTip({
         delay: 1,
