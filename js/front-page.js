@@ -14,7 +14,8 @@ jQuery(function($){
         pager: '.main-nav-menu'
     });
 
-  //  $(".main-nav-menu a").tipTip();
+    $(".main-nav-menu a").tipTip();
+    console.log($('main-nav-menu a'));
        
 });
 
