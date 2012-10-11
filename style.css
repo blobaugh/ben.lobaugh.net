@@ -1,0 +1,215 @@
+/*
+Theme Name: blobaugh card
+Author: Ben Lobaugh/ Jaffe Worley
+Author URI: http://jaff.es
+Description: blobaugh card
+Version: 1.6
+License: GNU General Public License
+License URI: license.txt
+
+*/
+html, h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color: #f6f6f6;
+}
+body{
+	background: url(images/backgrounds/puget_sound_from_office.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size:cover;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 200;
+}
+#page-wrap{
+	margin: 100px auto 50px;
+	width:565px;
+	height: 300px;
+	border-radius: 10px;
+	border: solid 5px #122A3A;
+	background-color: rgba(0,0,0,0.75);
+	position: relative;
+}
+.content{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+section{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#home .vcard{
+	position: absolute;
+	right: 40px;
+	top: 20px;
+}
+.avatar{
+	background: white;
+	height: 164px;
+	width: 164px;
+	position: absolute;
+	top: 65px;
+	right: 40px;
+	border-radius: 10px;
+}
+#home hgroup{
+	width: 300px;
+	position: absolute;
+	color: #fff;
+	left: 50px;
+	top: 65px;
+}
+#home hgroup h1{
+	font-size: 47px;
+	font-weight: 200;
+}
+#home hgroup h4{
+	font-size: 17px;
+	margin-top: 10px;
+	font-weight: 200;
+}
+#home ul.social-links{
+	width: 320px;
+	height: 65px;
+	position: absolute;
+	bottom: 5px;
+}
+#home .social-links a{
+	display: inline-block;
+	margin-left: 10px;
+	height: 70px;
+	width: 60px;
+	text-decoration: none;
+	position: relative;
+}
+#home .social-links a:first-child{
+	margin-left:0px;
+}
+#home .social-links li{
+	list-style: none;
+}
+#home .social-links a li span{
+	color: #fff;
+	font-size: 12px;
+	position: absolute;
+	bottom: 1px;
+	text-align: center;
+	width: 60px;
+}
+#home .social-links a{
+	/*background-color: blue;*/
+}
+#home .social-links #home-twitter{
+	background: url(images/white_magik/64/twitter.png) no-repeat;
+}
+#home .social-links #home-linkedin{
+	background: url(images/white_magik/64/linkedin.png) no-repeat;
+}
+#home .social-links #home-site{
+	background: url(images/white_magik/64/wordpress.png) no-repeat;
+}
+.main-nav-menu{
+	position: absolute;
+	left:-5px;
+	bottom: 10px;
+	width: 575px;
+	height: 38px;
+	overflow: hidden; 
+	background: url(images/nav_bg.png);
+	z-index: 1000;
+	text-align: center;
+}
+.main-nav-menu a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 0px;
+	margin-left: 20px;
+	padding: 15px;
+	line-height: 38px;
+}
+.main-nav-menu a:first-child{
+	margin-left: 0px;
+	background: url(images/nav/home_icon.png) no-repeat;
+}
+.main-nav-menu a.activeSlide:first-child{
+	background: url(images/nav/home_icon_active.png) no-repeat;
+}
+.main-nav-menu a:nth-child(2){
+	background: url(images/nav/about_icon.png) no-repeat;
+}
+.main-nav-menu a.activeSlide:nth-child(2){
+	background: url(images/nav/about_icon_active.png) no-repeat;
+}
+.main-nav-menu a:nth-child(3){
+	background: url(images/nav/network_icon.png) no-repeat;
+}
+.main-nav-menu a.activeSlide:nth-child(3){
+	background: url(images/nav/network_icon_active.png) no-repeat;
+}
+.main-nav-menu a:nth-child(4){
+	background: url(images/nav/contact_icon.png) no-repeat;
+}
+.main-nav-menu a.activeSlide:nth-child(4){
+	background: url(images/nav/contact_icon_active.png) no-repeat;
+}
+.section{
+	height: 250px;
+	width: 565px;
+}
+.section h2, .section p{
+	color: #f6f6f6;
+}
+.innerpage{
+	padding: 20px;
+}
+input, textarea{
+	border-radius: 3px;
+	color: #666;
+}
+ul.social li{
+	background: rgba(0,0,0,.25);
+	float: left;
+	height: 45px;
+	margin: 0 30px 8px 0;
+	padding: 0 0 0 7px;
+	border-radius: 10px;
+	width: 195px;
+}
+ul.social li a{
+	color: #6D6D6D;
+	cursor: pointer;
+	float: left;
+	font: 10px/12px Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 195px;
+	text-decoration: none;
+}
+ul.social li a.socialbox img {
+float: left;
+/*height: 37px;*/
+height: 32px;
+margin: 6px 10px 0 0;
+width: 32px;
+}
+ul.social li a.socialbox strong {
+color: #3F3F3F;
+display: block;
+float: left;
+font: 15px/15px Verdana, sans-serif;
+margin: 4px 0;
+padding: 0;
+width: 100px;
+}
+
+
+
+/* end css */
