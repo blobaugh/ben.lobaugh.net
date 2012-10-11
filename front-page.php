@@ -2,6 +2,7 @@
 /*
 Template Name: front-page
 */
+
 $user = blobaugh_get_user_for_card();
 ?>
 <!DOCTYPE html>

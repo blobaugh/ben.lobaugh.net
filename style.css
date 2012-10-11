@@ -18,7 +18,13 @@ ul{
 }
 a{
 	text-decoration: none;
-	color: #f6f6f6;
+	/*color: #f6f6f6;*/
+        color: #13a2fb;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-style: italic;
 }
 body{
 	background: url(images/backgrounds/puget_sound_from_office.jpg) no-repeat center center fixed;
